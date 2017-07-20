@@ -1,15 +1,15 @@
-<php
+<?php
 function isPrime($number) {
     $i = 2;
-    $notFound = TRUE;
+    $notFound = false;
     while ($i < $number && $notFound) {
         if ($number % $i) {
             $i++;
         } else {
-            return FALSE;
+            $notFound = false;
         }
     }
-    return TRUE;
+    return $notFound;
 }
 
 function findFactor($number) {
