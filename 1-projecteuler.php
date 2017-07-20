@@ -9,3 +9,5 @@ function MultiplesOfThreeAndFive($number = 1000) {
     }
     return $sum;
 }
+
+echo MultiplesOfThreeAndFive();
