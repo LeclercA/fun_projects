@@ -25,3 +25,5 @@ function checkForNPrime($primeNumber) {
     }
     return $lastPrime;
 }
+
+echo checkForNPrime(10001);
