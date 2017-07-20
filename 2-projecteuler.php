@@ -13,3 +13,5 @@ function EvenFibonacciNumbers() {
     }
     return $sum;
 }
+
+echo EvenFibonacciNumbers();
