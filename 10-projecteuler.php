@@ -1,9 +1,8 @@
 <?php
-ini_set('memory_limit', -1);
 function isPrime($number) {
     $i = 2;
     $notFound = true;
-    while ($i < $number && $notFound) {
+    while ($i < $number && $notFound && $number / $i >= $i) {
         if ($number % $i) {
             $i++;
         } else {
@@ -12,12 +11,12 @@ function isPrime($number) {
     }
     return $notFound;
 }
-set_time_limit(600);
+
 $sum = 0;
-for($i = 1;$i < 100000;$i++){
+for($i = 2;$i < 2000000;$i++){
     if(isPrime($i)){
         $sum += $i;
     }
 }
-
 echo $sum;
+//takes 15-16 seconds to execute
