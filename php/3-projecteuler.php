@@ -1,16 +1,5 @@
 <?php
-function isPrime($number) {
-    $i = 2;
-    $notFound = false;
-    while ($i < $number && $notFound) {
-        if ($number % $i) {
-            $i++;
-        } else {
-            $notFound = false;
-        }
-    }
-    return $notFound;
-}
+include "utilities.php";
 
 function findFactor($number) {
     $i = 1;
@@ -28,6 +17,7 @@ function findFactor($number) {
 
 $var = findFactor(600851475143);
 rsort($var);
+print_r($var);
 $i = 0;
 $count = count($var);
 $notFound = TRUE;

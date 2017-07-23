@@ -1,0 +1,5 @@
+﻿  3-projecteuler.cpp
+c:\xampp\htdocs\fun_project\c++\3-projecteuler\3-projecteuler\3-projecteuler.cpp(24): warning C4305: 'initialisation' : troncation de '__int64' à 'long'
+c:\xampp\htdocs\fun_project\c++\3-projecteuler\3-projecteuler\3-projecteuler.cpp(24): warning C4309: 'initialisation' : troncation de valeur de constante
+  3-projecteuler.vcxproj -> C:\xampp\htdocs\fun_project\c++\3-projecteuler\Debug\3-projecteuler.exe
+  3-projecteuler.vcxproj -> C:\xampp\htdocs\fun_project\c++\3-projecteuler\Debug\3-projecteuler.pdb (Partial PDB)
