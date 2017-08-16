@@ -11,3 +11,6 @@ function MultiplesOfThreeAndFive($number = 1000) {
 }
 
 echo MultiplesOfThreeAndFive();
+
+# On one line
+# array_sum(array_filter(range(0,999),function ($val){return $val % 3 === 0 || $val % 5 === 0;}));
